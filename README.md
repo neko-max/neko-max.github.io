@@ -1,11 +1,194 @@
-# neko-max.github.io![logo](https://user-images.githubusercontent.com/119551358/206355574-b15c989d-35a4-47f1-9e24-ef01e3f5cca4.svg)
-![main1](https://user-images.githubusercontent.com/119551358/206355578-0d540762-83cf-4f00-81c0-ae25f3c0183d.jpg)
-![main2](https://user-images.githubusercontent.com/119551358/206355581-efef7530-0166-4a14-8537-ea3973704deb.jpg)
-![main3](https://user-images.githubusercontent.com/119551358/206355583-17edb1d6-03c1-46a0-940a-5f3fc4de32ba.jpg)
-![pickup1](https://user-images.githubusercontent.com/119551358/206355587-6b2b1714-f477-4857-9b4b-363f2ba29215.jpg)
-![pickup2](https://user-images.githubusercontent.com/119551358/206355591-00d0f7fb-22f0-4ceb-9958-8d549021b60e.jpg)
-![pickup3](https://user-images.githubusercontent.com/119551358/206355596-ebed297f-593e-4fb9-87e3-2437b966b27c.jpg)
-![ranking1](https://user-images.githubusercontent.com/119551358/206355598-336a8543-c065-4dd2-b6a0-739c0651e99f.jpg)
-![ranking2](https://user-images.githubusercontent.com/119551358/206355602-da20e7ef-eb06-4fe5-beab-513e40241ab1.jpg)
-![ranking3](https://user-images.githubusercontent.com/119551358/206355604-35617273-a461-43e2-869f-8921e8008949.jpg)
-![author](https://user-images.githubusercontent.com/119551358/206355607-288af877-adf2-487c-9a5d-1c40fff779ed.jpg)
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title wrapper">
+        <a href="#"><img src="img/logo.svg" alt="Travel Blog"></a>
+      </h1>
+      <nav id="navi">
+        <ul class="wrapper">
+          <li><a href="#">NEW</a></li>
+          <li><a href="#">COLUMN</a></li>
+          <li><a href="#">SERIES</a></li>
+          <li><a href="#">Q&A</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="pickup" class="wrapper">
+      <article>
+        <img src="img/pickup1.jpg" alt="テキストテキストテキスト">
+        <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+        <div class="readmore"><a href="#">READ MORE</a></div>
+      </article>
+
+      <article>
+        <img src="img/pickup2.jpg" alt="テキストテキストテキスト">
+        <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+        <div class="readmore"><a href="#">READ MORE</a></div>
+      </article>
+
+      <article>
+        <img src="img/pickup3.jpg" alt="テキストテキストテキスト">
+        <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+        <div class="readmore"><a href="#">READ MORE</a></div>
+      </article>
+    </div>
+
+    <div id="container" class="wrapper">
+      <main>
+        <article>
+          <h2 class="article-title"><a href="#">タイトルテキストテキストテキストテキストテキスト</a></h2>
+          <ul class="meta">
+            <li><a href="#">2020/01/01</a></li>
+            <li><a href="#">カテゴリ1</a></li>
+          </ul>
+          <a href="#"><img src="img/main1.jpg" alt="テキストテキストテキスト"></a>
+          <p class="text">
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="readmore"><a href="#">READ MORE</a></div>
+        </article>
+
+        <article>
+          <h2 class="article-title"><a href="#">タイトルテキストテキストテキストテキストテキスト</a></h2>
+          <ul class="meta">
+            <li><a href="#">2020/01/01</a></li>
+            <li><a href="#">カテゴリ1</a></li>
+          </ul>
+          <a href="#"><img src="img/main2.jpg" alt="テキストテキストテキスト"></a>
+          <p class="text">
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="readmore"><a href="#">READ MORE</a></div>
+        </article>
+
+        <article>
+          <h2 class="article-title"><a href="#">タイトルテキストテキストテキストテキストテキスト</a></h2>
+          <ul class="meta">
+            <li><a href="#">2020/01/01</a></li>
+            <li><a href="#">カテゴリ1</a></li>
+          </ul>
+          <a href="#"><img src="img/main3.jpg" alt="テキストテキストテキスト"></a>
+          <p class="text">
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="readmore"><a href="#">READ MORE</a></div>
+        </article>
+      </main>
+
+      <aside id="sidebar">
+        <section class="author">
+          <img src="img/author.jpg" alt="テキストテキストテキスト">
+          <h3 class="side-title">Name Name</h3>
+          <p class="profile">
+            プロフィールテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </section>
+
+        <section class="ranking">
+          <h3 class="side-title">Ranking</h3>
+          <article>
+            <a href="#">
+              <img src="img/ranking1.jpg" alt="テキストテキストテキスト">
+              <h4 class="article-title">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+            </a>
+          </article>
+
+          <article>
+            <a href="#">
+              <img src="img/ranking2.jpg" alt="テキストテキストテキスト">
+              <h4 class="article-title">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+            </a>
+          </article>
+
+          <article>
+            <a href="#">
+              <img src="img/ranking3.jpg" alt="テキストテキストテキスト">
+              <h4 class="article-title">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+            </a>
+          </article>
+        </section>
+
+        <section class="archive">
+          <h3 class="side-title">Archive</h3>
+          <ul>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+            <li><a href="#">XXXX年XX月</a>(XX)</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+
+    <footer id="footer">
+      <div class="content wrapper">
+        <section class="item">
+          <h3 class="footer-title">About</h3>
+          <p>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <ul class="about-list">
+            <li><a href="#" class="arrow">プロフィール詳細</a></li>
+            <li><a href="#" class="arrow">お仕事の依頼</a></li>
+            <li><a href="#" class="arrow">お問い合わせ</a></li>
+          </ul>
+        </section>
+
+        <section class="item">
+          <h3 class="footer-title">Menu</h3>
+          <ul class="menu-list">
+            <li><a href="#">NEW</a></li>
+            <li><a href="#">CATEGORY</a></li>
+            <li><a href="#">COLUMN</a></li>
+            <li><a href="#">SERIES</a></li>
+            <li><a href="#">Q&A</a></li>
+          </ul>
+        </section>
+
+        <section class="item">
+          <h3 class="footer-title">Twitter</h3>
+          <a class="twitter-timeline" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+          <script async src="https://platform.twitter.com/widgets.js"></script>
+        </section>
+      </div>
+
+      <p class="copyright">&copy; Travel & Blog</p>
+    </footer>
+  </body>
+</html>
+Footer
