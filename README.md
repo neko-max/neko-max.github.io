@@ -13,9 +13,9 @@
 
   <body>
     <header id="header">
-      <h1 class="site-title wrapper">
+      <h5 class="site-title wrapper">
         <a href="#"><img src="img/logo.svg" alt="Travel Blog"></a>
-      </h1>
+      </h5>
       <nav id="navi">
         <ul class="wrapper">
           <li><a href="#">NEW</a></li>
